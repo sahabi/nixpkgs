@@ -16,6 +16,7 @@ with import ./release-lib.nix { inherit supportedSystems; };
 
 } // (mapTestOn (rec {
 
+  acl = linux;
   aspell = all;
   at = linux;
   atlas = linux;
